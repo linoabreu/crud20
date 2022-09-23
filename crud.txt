@@ -1,0 +1,28 @@
+alterar arquivo .env
+alterar ambiente para "Develompent"
+inserir Banco de dados "users"
+criar controller "User" = php spark make:controller User
+criar model "user" = php spark make:model UserModel
+configurar model:
+	protected allowedFields
+criar construtor no model
+
+private $userModel;
+
+public function __contruct(){
+	$this->userModel = new UserModel()
+}
+
+public function index()
+{
+	return view('users', [
+		'users' => $this->userModel->findAll()
+	]);
+}
+
+
+id
+name
+username
+lastname
+email

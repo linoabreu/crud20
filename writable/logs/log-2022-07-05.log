@@ -1,0 +1,63 @@
+CRITICAL - 2022-07-05 12:41:54 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 12:42:26 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 13:15:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 13:37:26 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 13:46:53 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 13:57:35 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 13:59:18 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 13:59:59 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 14:00:09 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Projetos\crud20\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projetos\crud20\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Projetos\crud20\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
